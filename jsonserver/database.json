@@ -40,6 +40,6 @@
     "messages":[{
         "messageID":"",
         "userID":"",
-        "messages":[]
+        "chats":[]
     }]
 }
