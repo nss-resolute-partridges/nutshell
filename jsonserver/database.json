@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "userID":"1",
+            "username":"Jeremiah" ,
+            "email": "jeremiah@me.com"
+        },
+        {
+            "userID":"2" ,
+            "username":"Daniel" ,
+            "email": "daniel@me.com"
+        }
+    ],
+    "events":[{
+        "eventID":"",
+        "eventName":"",
+        "date":"",
+        "location":"",
+        "userID":""
+    }],
+    "tasks":[{
+        "taskID":"",
+        "taskName":"",
+        "completionDate":"",
+        "status":"",
+        "userID":""
+    }],
+    "news":[{
+        "newID":"",
+        "url":"",
+        "title":"",
+        "synopsis":"",
+        "userID":""
+    }],
+    "friends":[{
+        "friendshipID":"",
+        "userID":"",
+        "friendID":""
+    }],
+    "messages":[{
+        "messageID":"",
+        "userID":"",
+        "chats":[]
+    }]
+}
