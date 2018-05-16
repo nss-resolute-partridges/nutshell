@@ -1,34 +1,28 @@
-// Factory functions required for NEWS GENERATOR
-// const componentFactory = require("./componentFactory")
-// const appendFactory = require("./appendFactory")
+const $ = require("jquery")
+const newsInput = require("./newsInput")
+const contentHook = document.querySelector("#news")
 
-// HTML Anchor where all elements will be attached
+//Function for static news feed
+const newsFeed = () => {
+    const newsFeedSection = document.createElement("section")
+    newsFeedSection.setAttribute("id", "newsFeedSectionEl")
+    //Button to add article with event listener
+    const newsArticleAddButton = document.createElement("button")
+    newsArticleAddButton.setAttribute("id", "newsArticleAddButtonEl")
+    newsArticleAddButton.textContent = "Add Article"
+    //Append button to newsFeedSection
+    newsFeedSection.appendChild(newsArticleAddButton)
 
-// This could change depending on what the group decides - in other words - we may not use fragments
+    //Event listener to add article button
+    newsArticleAddButton.addEventListener("click", function () {
+        console.log(newsInput)
+        $(".newsArticleAddButtonEl").hide()
+        newsInput()
+    })
 
-// Function to loop through database to pull NEWS and create DOM elements
-const newsFactory = () => {
-    const contentHook = document.querySelector("#news")
-    // const fragment = document.createDocumentFragment()
-
-    const newsSection = document.createElement("section")
-    newsSection.setAttribute("class", "newsSectionEl")
-
-    const newsButton = document.createElement("button")
-    newsButton.setAttribute("class", "newsButtonEl")
-    newsButton.textContent = "Add A News Article"
-    // newsButton.addEventListener("click", eventListener)
-    newsSection.appendChild(newsButton)
-
-    // fragment.appendChild(newsSection)
-    contentHook.appendChild(newsSection)
+    //Append section and button to html element
+    contentHook.appendChild(newsFeedSection)
 }
 
-
-// Call appendFactory to append all the created NEWS elements above to the DOM
-// appendFactory(contentHook, fragment)
-
-
-
-
-module.exports = newsFactory
+module.exports = newsFeed
+// module.exports = newsInput
