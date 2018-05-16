@@ -2,10 +2,12 @@ const fragment = document.createDocumentFragment()
 const taskSection = document.querySelector(".taskSection")
 const taskCreationField = document.querySelector(".taskfields")
 
+//event listener attached to add task button and calls upon taskInput variable to populate form to create new task
 $(".taskCreationButton").on("click", function () {
     $(".taskCreationButton").hide()
     $(".taskSection").append(taskInput())
 })
+//function to create input fields to create a new task
 const taskInput = function () {
     const taskDiv = document.createElement("div")
     taskDiv.classList = "taskfield"
