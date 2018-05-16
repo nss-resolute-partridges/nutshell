@@ -4,6 +4,7 @@ const eventDisplay = require("./eventsGenerator")
 const friendDisplay = require("./friendsGenerator")
 const taskDisplay = require("./tasksGenerator")
 const messageDisplay = require("./messagesGenerator")
+const tasks = require("./tasks")
 
 
 // CALLS all GENERATOR functions
