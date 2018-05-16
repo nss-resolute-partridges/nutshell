@@ -1,0 +1,55 @@
+body {
+    line-height: 1;
+    background-color: aqua;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: -3ch;
+}
+#letsChat{
+    color: blue;
+    font-family: cursive;
+    margin-top: 30px;
+}
+ #content{
+     border: 1px solid black;
+     background: #FFF;
+     margin-left: auto;
+     margin-right: auto;
+     width:300;
+     height:300;
+     overflow: scroll;
+     
+ }
+ #content p{ 
+padding: 1em;
+margin: 1em;
+background: gray;
+border: 1px solid black;
+ }
+ #message button{
+     margin: 0 0 0 0;
+ }
+ #message{
+     margin-top: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+     overflow:auto;
+     padding: 0 0 0 3px;
+     color:yellowgreen;
+ }
+#message textarea{
+     width: 600px;
+ }
+ button{
+     padding: 6px;
+     border: none;
+     text-decoration: brown;
+     background:black;
+     color: antiquewhite;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     
+ }
