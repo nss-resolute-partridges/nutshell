@@ -7,7 +7,7 @@
 // This could change depending on what the group decides - in other words - we may not use fragments
 
 // Function to loop through database to pull NEWS and create DOM elements
-// const newsFactory = () => {
+const newsFactory = () => {
     const contentHook = document.querySelector("#news")
     // const fragment = document.createDocumentFragment()
 
@@ -22,8 +22,8 @@
 
     // fragment.appendChild(newsSection)
     contentHook.appendChild(newsSection)
-// }
-// newsFactory()
+}
+
 
 // Call appendFactory to append all the created NEWS elements above to the DOM
 // appendFactory(contentHook, fragment)
