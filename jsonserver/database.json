@@ -1,64 +1,8 @@
 {
-  "users": [
-    {
-      "username": "\"name\"",
-      "email": "\"name@email.com\"",
-      "id": 1
-    },
-    {
-      "username": "\"dan\"",
-      "email": "\"dan@email.com\"",
-      "id": 2
-    },
-    {
-      "username": "\"newname\"",
-      "email": "\"new@new.com\"",
-      "id": 3
-    },
-    {
-      "username": "\"1\"",
-      "email": "\"21e@alsdkf\"",
-      "id": 4
-    },
-    {
-      "username": "\"1\"",
-      "email": "\"21e@alsdkf\"",
-      "id": 5
-    },
-    {
-      "username": "\"2\"",
-      "email": "\"21e@alsdkf\"",
-      "id": 6
-    },
-    {
-      "username": "\"2\"",
-      "email": "\"\"",
-      "id": 7
-    },
-    {
-      "username": "\"3\"",
-      "email": "\"\"",
-      "id": 8
-    },
-    {
-      "username": "\"4\"",
-      "email": "\"\"",
-      "id": 9
-    },
-    {
-      "username": "\"6\"",
-      "email": "\"\"",
-      "id": 10
-    },
-    {
-      "username": "\"72\"",
-      "email": "\"email@jisgsa.com\"",
-      "id": 11
-    }
-  ],
-  "events": [],
-  "tasks": [],
-  "news": [],
-  "friends": [],
-  "messages": []
+    "users": [],
+    "events": [],
+    "tasks": [],
+    "news": [],
+    "friends": [],
+    "messages": []
 }
