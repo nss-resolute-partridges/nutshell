@@ -1,6 +1,10 @@
 const fragment = document.createDocumentFragment()
 const taskSection = document.querySelector(".taskSection")
 const taskCreationField = document.querySelector(".taskfields")
+const randomNumber = Math.floor(Math.random() * 100)
+const APIManager = require("./APIManager")
+console.log(APIManager.createObject)
+
 
 //event listener attached to add task button and calls upon taskInput variable to populate form to create new task
 $(".taskCreationButton").on("click", function () {
@@ -28,27 +32,23 @@ const taskInput = function () {
     taskDiv.appendChild(submitButton)
     //event listener attached to submit button and when submit button is pressed clears form and shows add task button
     $(".submitButton").on("click", function () {
+        // input capture for object creation
         let input = $(".inputNameField").val()
         let inputDate = $(".dateComplete").val()
-        console.log(input)
-        $.ajax({
-            url: "http://localhost:8088/tasks",
-            method: "POST",
-            data: {
-                taskID: "",
-                taskName: (input),
-                completionDate: (inputDate),
-                status: "",
-                userID: ""
-            }
-        })
-            .then(newFood => console.log(newFood))
-        $(".taskfield").empty()
-        $(".taskCreationButton").show()
+        //object that is created from captured inputs
+        const taskObject = {
+            Id: (randomNumber),
+            taskName: (input),
+            completionDate: (inputDate),
+            status: "false",
+            userID: "",
+        }
+
+//invoke post from api manager to push task object into database
+        APIManager.createObject("tasks", taskObject).then(
+           //event listeners that clear input fields and show the add task button
+            $(".taskfield").empty(),
+            $(".taskCreationButton").show()
+        )
     })
 }
-
-/*$(".submitButton").on("click", function () {
-    $(".taskfield").empty()
-    $(".taskCreationButton").show()})
-*/
