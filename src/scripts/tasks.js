@@ -15,10 +15,12 @@ const taskInput = function () {
     const inputName = document.createElement("input")
     inputName.type = "text"
     inputName.placeholder = "Task Name Here"
+    inputName.classList = "inputNameField"
     taskDiv.appendChild(inputName)
     const completionDate = document.createElement("input")
     completionDate.type = "date"
     completionDate.placeholder = "Date to Complete"
+    completionDate.classList = "dateComplete"
     taskDiv.appendChild(completionDate)
     const submitButton = document.createElement("button")
     submitButton.textContent = "Submit"
@@ -26,8 +28,24 @@ const taskInput = function () {
     taskDiv.appendChild(submitButton)
     //event listener attached to submit button and when submit button is pressed clears form and shows add task button
     $(".submitButton").on("click", function () {
+        let input = $(".inputNameField").val()
+        let inputDate = $(".dateComplete").val()
+        console.log(input)
+        $.ajax({
+            url: "http://localhost:8088/tasks",
+            method: "POST",
+            data: {
+                taskID: "",
+                taskName: (input),
+                completionDate: (inputDate),
+                status: "",
+                userID: ""
+            }
+        })
+            .then(newFood => console.log(newFood))
         $(".taskfield").empty()
-        $(".taskCreationButton").show()})
+        $(".taskCreationButton").show()
+    })
 }
 
 /*$(".submitButton").on("click", function () {
