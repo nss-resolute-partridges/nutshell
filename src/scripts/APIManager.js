@@ -1,4 +1,4 @@
-// Author: Raf 
+// Author: Raf
 // Many thanks to Steve's code from Skull Potter and Kimmey's suggestion to talk with the Lean Anteaters group
 
 const $ = require("jquery")
