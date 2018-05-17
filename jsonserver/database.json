@@ -1,8 +1,19 @@
 {
-    "users": [],
-    "events": [],
-    "tasks": [],
-    "news": [],
-    "friends": [],
-    "messages": []
+  "users": [
+    {
+      "username": "\"lajsdf\"",
+      "email": "\"lakjasdf\"",
+      "id": 1
+    },
+    {
+      "username": "\"name\"",
+      "email": "\"dude@guy.com`\"",
+      "id": 2
+    }
+  ],
+  "events": [],
+  "tasks": [],
+  "news": [],
+  "friends": [],
+  "messages": []
 }
