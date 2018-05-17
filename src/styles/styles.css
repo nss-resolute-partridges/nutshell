@@ -1,0 +1,48 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;                    
+    padding: 10px;
+  } */
+
+  /* .cell {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+  /* .cell:nth-child(3n) {
+    background-color: #F00;
+  } */
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+}
+
+/* #news {
+    border: 1px solid black;
+}
+
+#events {
+    border: 1px solid black;
+}
+
+#tasks {
+    border: 1px solid black;
+}
+
+#friends {
+    border: 1px solid black;
+} */
+
+/* #messages {
+    flex: 0 0 65.5%;
+} */
+
+article {
+    border: 1px solid black;
+}
