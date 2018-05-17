@@ -3,7 +3,6 @@ const fragment = document.createDocumentFragment()
 const contentHook2 = document.querySelector("#newsForm")
 //Function to dynamically create section, inputs, and submit button
 const newsInput = () => {
-    console.log("hello")
     const newsSectionInputForm = document.createElement("section")
     newsSectionInputForm.setAttribute("class", "newsSectionEl")
 

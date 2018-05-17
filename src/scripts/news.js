@@ -15,7 +15,6 @@ const newsFeed = () => {
 
     //Event listener to add article button
     newsArticleAddButton.addEventListener("click", function () {
-        console.log(newsInput)
         $(".newsArticleAddButtonEl").hide()
         newsInput()
     })
