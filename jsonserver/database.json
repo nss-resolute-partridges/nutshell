@@ -1,14 +1,9 @@
 {
   "users": [
     {
-      "username": "\"lajsdf\"",
-      "email": "\"lakjasdf\"",
+      "username": "\"dan\"",
+      "email": "\"dan@dan.com\"",
       "id": 1
-    },
-    {
-      "username": "\"name\"",
-      "email": "\"dude@guy.com`\"",
-      "id": 2
     }
   ],
   "events": [],

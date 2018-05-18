@@ -14,6 +14,13 @@ $(function() {
     })
 })
 
+$(function() {
+    $("#myBtnTwo").click(function() {
+        $("#myModalTwo").toggleClass("modal")
+    })
+})
+
+
 
 // // When the user clicks on <span> (x), close the modal
 // $(".close").onclick = function() {
