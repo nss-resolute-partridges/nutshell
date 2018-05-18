@@ -15,11 +15,8 @@ const APIManager = Object.create(null, {
             return $.ajax(`http://localhost:8088/${obj}/${id}`)
         }
     },
-<<<<<<< HEAD
-=======
     // Function to CREATE objects in database.
     // Added Steve's suggested changes
->>>>>>> bc06d6c819574a44c5157f9b8a2d4e9a5efe6e12
     createObject: {
         value: function (obj, objectToCreate) {
             return $.ajax({
@@ -29,11 +26,7 @@ const APIManager = Object.create(null, {
             })
         }
     },
-<<<<<<< HEAD
-    //Function to DELETE objects in database
-=======
     // Function to DELETE objects in database
->>>>>>> bc06d6c819574a44c5157f9b8a2d4e9a5efe6e12
     deleteObject: {
         value: function (obj, id) {
             return $.ajax({
@@ -42,10 +35,6 @@ const APIManager = Object.create(null, {
             })
         }
     },
-<<<<<<< HEAD
-
-=======
->>>>>>> bc06d6c819574a44c5157f9b8a2d4e9a5efe6e12
     // Function to UPDATE objects in database
     updateObject: {
         value: function (obj) {
@@ -57,8 +46,4 @@ const APIManager = Object.create(null, {
         }
     }
 })
-<<<<<<< HEAD
-=======
-
->>>>>>> bc06d6c819574a44c5157f9b8a2d4e9a5efe6e12
 module.exports = APIManager
