@@ -8,17 +8,11 @@ console.log(userEmail) // console.log for varification
 // const IDstring=JSON.stringify(IdGenerator())
 // console.log(IDstring) // console.log to verify value of IdGenerator
 // sessionStorage.setItem("userID", IDstring)
-sessionStorage.setItem("usernameLog", userName)
-$.ajax({ // post to JSON DB
-    url: "http://localhost:8088/users", // url where to submit the request
-    method : "GET", // type of action POST
-    data : { // object
-        // "userID": JSON.stringify(IdGenerator()), // assign ID from required module
-        "username": (JSON.parse()), // post userName
-        "email": (JSON.parse()), // post email
-   }
+// sessionStorage.setItem("usernameLog", userName)
+$.ajax("http://localhost:8088/users")
 
- }).then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
+ .then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
+   .then(name => sessionStorage.setItem("name", JSON.stringify(name.username)))
 
 })
 
