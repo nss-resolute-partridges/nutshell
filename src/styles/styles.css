@@ -1,6 +1,6 @@
 /* .grid {
     display: grid;
-    grid-template-columns: auto auto auto;                    
+    grid-template-columns: auto auto auto;
     padding: 10px;
   } */
 
@@ -17,6 +17,7 @@
 
 body {
     background-color: lightblue;
+    padding: 30px;
 }
 
 header {
