@@ -1,8 +1,240 @@
 {
-    "users": [],
-    "events": [],
-    "tasks": [],
-    "news": [],
-    "friends": [],
-    "messages": []
+  "users": [
+    {
+      "username": "\"dan\"",
+      "email": "\"dan@dan.com\"",
+      "id": 1
+    },
+    {
+      "username": "\"lori\"",
+      "email": "\"lori@email\"",
+      "id": 2
+    },
+    {
+      "username": "\"stinker \"",
+      "email": "\"stinker@stinker.com\"",
+      "id": 3
+    },
+    {
+      "username": "\"paige\"",
+      "email": "\"paige@paige.com\"",
+      "id": 4
+    },
+    {
+      "username": "\"paige2\"",
+      "email": "\"paige2@paige.com\"",
+      "id": 5
+    },
+    {
+      "username": "\"roger\"",
+      "email": "\"roger@roger.com\"",
+      "id": 6
+    }
+  ],
+  "events": [],
+  "tasks": [
+    {
+      "Id": "14",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 1
+    },
+    {
+      "Id": "71",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 2
+    },
+    {
+      "Id": "71",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 3
+    },
+    {
+      "Id": "10",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 4
+    },
+    {
+      "Id": "10",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 5
+    },
+    {
+      "Id": "10",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 6
+    },
+    {
+      "Id": "10",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 7
+    },
+    {
+      "Id": "79",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 8
+    },
+    {
+      "Id": "79",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 9
+    },
+    {
+      "Id": "79",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 10
+    },
+    {
+      "Id": "79",
+      "taskName": "task",
+      "completionDate": "2222-02-02",
+      "status": "false",
+      "userID": "",
+      "id": 11
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 12
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 13
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 14
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 15
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 16
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 17
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 18
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 19
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 20
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 21
+    },
+    {
+      "Id": "87",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 22
+    },
+    {
+      "Id": "92",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 23
+    },
+    {
+      "Id": "56",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 24
+    },
+    {
+      "Id": "56",
+      "taskName": "",
+      "completionDate": "",
+      "status": "false",
+      "userID": "",
+      "id": 25
+    }
+  ],
+  "news": [],
+  "friends": [],
+  "messages": []
 }

@@ -22,6 +22,7 @@ $.ajax({ // post to JSON DB
 
 })
 
+
 // .then(userObj => console.log(userObj))
 
 // .then(userData => console.log(userData)) // console.log to test
