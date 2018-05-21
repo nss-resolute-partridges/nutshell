@@ -17,3 +17,6 @@ const newsFeed = require("./news")
 // taskDisplay()
 // messageDisplay()
 //chatDisplay()
+const chatDisplay = require("./chat")
+
+chatDisplay()
