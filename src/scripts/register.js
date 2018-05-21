@@ -30,4 +30,4 @@ $.ajax({ // post to JSON DB
 //   localStorage.content = $(".userName").html();
 //   $(".userName").html(localStorage.content)
 // })
-exports.modules(sessionStorage)
+module.exports = sessionStorage
