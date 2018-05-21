@@ -1,3 +1,6 @@
+// Author: Raf
+// Many thanks to Steve's code from Skull Potter and Kimmey's suggestion to talk with the Lean Anteaters group
+
 const $ = require("jquery")
 
 const APIManager = Object.create(null, {
@@ -26,9 +29,6 @@ const APIManager = Object.create(null, {
             })
         }
     },
-
-    //Function to DELETE objects in database
-
     // Function to DELETE objects in database
     deleteObject: {
         value: function (obj, id) {
@@ -38,7 +38,6 @@ const APIManager = Object.create(null, {
             })
         }
     },
-
     // Function to UPDATE objects in database
     updateObject: {
         value: function (obj) {
