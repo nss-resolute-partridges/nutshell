@@ -22,6 +22,4 @@ const newsFeed = () => {
     //Append section and button to html element
     contentHook.appendChild(newsFeedSection)
 }
-
 module.exports = newsFeed
-// module.exports = newsInput
