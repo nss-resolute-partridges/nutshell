@@ -79,4 +79,4 @@ const eventDisplay = function () {
     })
 }
 
-// module.exports = eventDisplay
+module.exports = eventDisplay
