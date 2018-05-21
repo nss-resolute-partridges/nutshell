@@ -6,6 +6,8 @@ const APIManager = require("./APIManager")
 console.log(APIManager.createObject)
 
 
+//const userinfo = sessionStorage.getItem("userID",JSON.parse(userID.id))
+
 //event listener attached to add task button and calls upon taskInput variable to populate form to create new task
 $(".taskCreationButton").on("click", function () {
     $(".taskCreationButton").hide()
@@ -41,9 +43,8 @@ const taskInput = function () {
             taskName: (input),
             completionDate: (inputDate),
             status: "false",
-            userID: "",
+            userID: (userinfo.userID),
         }
-
 //invoke post from api manager to push task object into database
         APIManager.createObject("tasks", taskObject).then(
            //event listeners that clear input fields and show the add task button

@@ -7,6 +7,7 @@ const messageDisplay = require("./messagesGenerator")
 const tasks = require("./tasks")
 const APIManager = require("./APIManager")
 const chatDisplay = require("./chat")
+const register = require("./register")
 // CALLS all GENERATOR functions
 // newsDisplay()
 // eventDisplay()
@@ -14,4 +15,4 @@ const chatDisplay = require("./chat")
 // taskDisplay()
 // messageDisplay()
 
-chatDisplay()
+//chatDisplay()
