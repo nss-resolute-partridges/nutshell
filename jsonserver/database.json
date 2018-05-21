@@ -41,7 +41,16 @@
       "id": 8
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "Id": "50",
+      "eventName": "lkasdfj",
+      "eventDate": "0003-03-09",
+      "status": "false",
+      "userID": "",
+      "id": 1
+    }
+  ],
   "tasks": [
     {
       "Id": "14",
