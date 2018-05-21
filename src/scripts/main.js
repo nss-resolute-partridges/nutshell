@@ -13,14 +13,14 @@ const newsFeed = require("./news")
 
 
 // CALLS all GENERATOR functions
-newsDisplay()
-newsInput()
-newsFeed()
-newsDisplay()
-eventDisplay()
-friendDisplay()
-taskDisplay()
-messageDisplay()
-chatDisplay()
+// newsDisplay()
+// newsInput()
+// newsFeed()
+// newsDisplay()
+// eventDisplay()
+// friendDisplay()
+// taskDisplay()
+// messageDisplay()
+// chatDisplay()
 
 chatDisplay()
