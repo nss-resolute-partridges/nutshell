@@ -43,7 +43,7 @@ const taskInput = function () {
             taskName: (input),
             completionDate: (inputDate),
             status: "false",
-            userID: (userinfo.userID),
+            userID: sessionStorage.getItem("userID"),
         }
 //invoke post from api manager to push task object into database
         APIManager.createObject("tasks", taskObject).then(
