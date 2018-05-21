@@ -60,14 +60,16 @@ const eventDisplay = function () {
     $(".submitButton").on("click", function () {
         // input capture for object creation
         let input = $(".eventNameField").val()
+        let inputLocation = $(".eventLocationField").val()
         let inputDate = $(".event_date").val()
         //object that is created from captured inputs
         const eventObject = {
             Id: (randomNumber),
             eventName: (input),
+            eventLocation: (inputLocation),
             eventDate: (inputDate),
             status: "false",
-            userID: "",
+            userID: sessionStorage.getItem("userID"),
         }
 
         //invoke post from api manager to push task object into database
