@@ -31,9 +31,30 @@
       "id": 6
     },
     {
+<<<<<<< HEAD
       "username": "\"meghan\"",
       "email": "\"mdebity@gmail.com\"",
       "id": 7
+=======
+      "username": "\"will\"",
+      "email": "\"will@will.com\"",
+      "id": 7
+    },
+    {
+      "username": "\"skeletor\"",
+      "email": "\"skedog@skedi.com\"",
+      "id": 8
+    },
+    {
+      "username": "\"newname\"",
+      "email": "\"newname@newbie.com\"",
+      "id": 9
+    },
+    {
+      "username": "\"goat\"",
+      "email": "\"goat@goat.com\"",
+      "id": 10
+>>>>>>> DBevent
     }
   ],
   "events": [],
