@@ -29,8 +29,13 @@ const eventDisplay = function () {
 
     /* Refactored the above to use componentFactory
     Create input field for user to enter the EVENT name */
-    const eventName = componentFactory("input", "", "Event Name Here", "eventNameField")
+    const eventName = componentFactory("input", "", "Event Name", "eventNameField")
     eventDiv.appendChild(eventName)
+
+
+    const eventLocation = componentFactory("input", "", "Event Location", "eventLocationField")
+    eventDiv.appendChild(eventLocation)
+
 
     // Would like to refactor this using componentFactory
     const eventDate = document.createElement("input")
