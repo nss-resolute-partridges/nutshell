@@ -4,10 +4,10 @@ console.log(userName) // console.log for varification
 let userEmail= $("#userEmailLog").val() // same as above but for email
 console.log(userEmail) // console.log for varification
 $.ajax("http://localhost:8088/users").then(function (allUsers){
-  allUsers.forEach(user=> {
-        if (user.username===userName) {
+  allUsers.forEach(users=> {
+        if (users.username===userName) {
 
-          sessionStorage.setItem("userID", JSON.stringify(user.id))
+          sessionStorage.setItem("userID", JSON.stringify(users.id))
     }
   });
 })
