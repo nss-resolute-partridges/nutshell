@@ -26,7 +26,10 @@ const APIManager = Object.create(null, {
             })
         }
     },
+
     //Function to DELETE objects in database
+
+    // Function to DELETE objects in database
     deleteObject: {
         value: function (obj, id) {
             return $.ajax({
