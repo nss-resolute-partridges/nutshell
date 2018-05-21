@@ -39,6 +39,11 @@
       "username": "\"test\"",
       "email": "\"test@test.com\"",
       "id": 8
+    },
+    {
+      "username": "\"registration\"",
+      "email": "\"register\"",
+      "id": 9
     }
   ],
   "events": [
