@@ -26,6 +26,7 @@ const APIManager = Object.create(null, {
             })
         }
     },
+
     // Function to DELETE objects in database
     deleteObject: {
         value: function (obj, id) {
@@ -35,6 +36,7 @@ const APIManager = Object.create(null, {
             })
         }
     },
+
     // Function to UPDATE objects in database
     updateObject: {
         value: function (obj) {
