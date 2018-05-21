@@ -277,7 +277,161 @@
       "id": 28
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 1
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 2
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 3
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 4
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 5
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 6
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 7
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 8
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 9
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 10
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 11
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 12
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 13
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 14
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 15
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 16
+    },
+    {
+      "Id": "(randomNumber)",
+      "newsTitle": "(inputTitle)",
+      "newsSynopsis": "(inputSynopsis)",
+      "newsURL": "(inputURL)",
+      "status": "false",
+      "userID": "",
+      "id": 17
+    }
+  ],
   "friends": [],
   "messages": []
 }
